@@ -21,7 +21,6 @@ public class LineRenderObserver : MonoBehaviour
     {
         _namePlanet = name;
         _point1 = point;
-        _ship.SetTransform(point,placeSitDown);
         
     }
     private void FixedUpdate()

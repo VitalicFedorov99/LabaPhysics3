@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Attractors : MonoBehaviour
 {
-    private const float G = 6.674f; 
+    //6.674f; 
+    private const float G = 6.674f;
     [SerializeField] private Rigidbody _rb;
     private bool firstAngularForce = true;
 
